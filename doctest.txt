@@ -1,0 +1,745 @@
+**********************************************************************
+File "test_mat.py", line 2, in __main__
+Failed example:
+    from mat import Mat
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[0]>", line 1, in <module>
+        from mat import Mat
+      File "c:\Users\sadhikar\workspace\CodingTheMatrix\mat.py", line 2, in <module>
+        import matutil as utils
+      File "c:\Users\sadhikar\workspace\CodingTheMatrix\matutil.py", line 2, in <module>
+        from mat import Mat
+    ImportError: cannot import name Mat
+**********************************************************************
+File "test_mat.py", line 10, in __main__
+Failed example:
+    M = Mat(({1,3,5}, {'a'}), {(1,'a'):4, (5,'a'): 2})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[3]>", line 1, in <module>
+        M = Mat(({1,3,5}, {'a'}), {(1,'a'):4, (5,'a'): 2})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 11, in __main__
+Failed example:
+    M[1,'a']
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[4]>", line 1, in <module>
+        M[1,'a']
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 13, in __main__
+Failed example:
+    M[3,'a']
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[5]>", line 1, in <module>
+        M[3,'a']
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 18, in __main__
+Failed example:
+    M = Mat((set(range(1000)), {'e',' '}), {(500, ' '): one, (255, 'e'): 0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[6]>", line 1, in <module>
+        M = Mat((set(range(1000)), {'e',' '}), {(500, ' '): one, (255, 'e'): 0})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 19, in __main__
+Failed example:
+    M[500, ' ']
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[7]>", line 1, in <module>
+        M[500, ' ']
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 21, in __main__
+Failed example:
+    M[500, 'e']
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[8]>", line 1, in <module>
+        M[500, 'e']
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 23, in __main__
+Failed example:
+    M[255, 'e']
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[9]>", line 1, in <module>
+        M[255, 'e']
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 25, in __main__
+Failed example:
+    M == Mat((set(range(1000)), {'e',' '}), {(500, ' '): one, (255, 'e'): 0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[10]>", line 1, in <module>
+        M == Mat((set(range(1000)), {'e',' '}), {(500, ' '): one, (255, 'e'): 0})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 30, in __main__
+Failed example:
+    M = Mat(({'a','b','c'}, {5}), {('a', 5):3, ('b', 5):7})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[11]>", line 1, in <module>
+        M = Mat(({'a','b','c'}, {5}), {('a', 5):3, ('b', 5):7})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 31, in __main__
+Failed example:
+    M['b', 5] = 9
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[12]>", line 1, in <module>
+        M['b', 5] = 9
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 32, in __main__
+Failed example:
+    M['c', 5] = 13
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[13]>", line 1, in <module>
+        M['c', 5] = 13
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 33, in __main__
+Failed example:
+    M == Mat(({'a','b','c'}, {5}), {('a', 5):3, ('b', 5):9, ('c',5):13})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[14]>", line 1, in <module>
+        M == Mat(({'a','b','c'}, {5}), {('a', 5):3, ('b', 5):9, ('c',5):13})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 38, in __main__
+Failed example:
+    N = Mat(({((),), 7}, {True, False}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[15]>", line 1, in <module>
+        N = Mat(({((),), 7}, {True, False}), {})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 39, in __main__
+Failed example:
+    N[(7, False)] = 1
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[16]>", line 1, in <module>
+        N[(7, False)] = 1
+    NameError: name 'N' is not defined
+**********************************************************************
+File "test_mat.py", line 40, in __main__
+Failed example:
+    N[(((),), True)] = 2
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[17]>", line 1, in <module>
+        N[(((),), True)] = 2
+    NameError: name 'N' is not defined
+**********************************************************************
+File "test_mat.py", line 41, in __main__
+Failed example:
+    N == Mat(({((),), 7}, {True, False}), {(7,False):1, (((),), True):2})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[18]>", line 1, in <module>
+        N == Mat(({((),), 7}, {True, False}), {(7,False):1, (((),), True):2})
+    NameError: name 'N' is not defined
+**********************************************************************
+File "test_mat.py", line 46, in __main__
+Failed example:
+    A1 = Mat(({3, 6}, {'x','y'}), {(3,'x'):-2, (6,'y'):3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[19]>", line 1, in <module>
+        A1 = Mat(({3, 6}, {'x','y'}), {(3,'x'):-2, (6,'y'):3})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 47, in __main__
+Failed example:
+    A2 = Mat(({3, 6}, {'x','y'}), {(3,'y'):4})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[20]>", line 1, in <module>
+        A2 = Mat(({3, 6}, {'x','y'}), {(3,'y'):4})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 48, in __main__
+Failed example:
+    B = Mat(({3, 6}, {'x','y'}), {(3,'x'):-2, (3,'y'):4, (6,'y'):3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[21]>", line 1, in <module>
+        B = Mat(({3, 6}, {'x','y'}), {(3,'x'):-2, (3,'y'):4, (6,'y'):3})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 49, in __main__
+Failed example:
+    A1 + A2 == B
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[22]>", line 1, in <module>
+        A1 + A2 == B
+    NameError: name 'A1' is not defined
+**********************************************************************
+File "test_mat.py", line 51, in __main__
+Failed example:
+    A2 + A1 == B
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[23]>", line 1, in <module>
+        A2 + A1 == B
+    NameError: name 'A2' is not defined
+**********************************************************************
+File "test_mat.py", line 53, in __main__
+Failed example:
+    A1 == Mat(({3, 6}, {'x','y'}), {(3,'x'):-2, (6,'y'):3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[24]>", line 1, in <module>
+        A1 == Mat(({3, 6}, {'x','y'}), {(3,'x'):-2, (6,'y'):3})
+    NameError: name 'A1' is not defined
+**********************************************************************
+File "test_mat.py", line 55, in __main__
+Failed example:
+    zero = Mat(({3,6}, {'x','y'}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[25]>", line 1, in <module>
+        zero = Mat(({3,6}, {'x','y'}), {})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 56, in __main__
+Failed example:
+    B + zero == B
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[26]>", line 1, in <module>
+        B + zero == B
+    NameError: name 'B' is not defined
+**********************************************************************
+File "test_mat.py", line 58, in __main__
+Failed example:
+    C1 = Mat(({1,3}, {2,4}), {(1,2):2, (3,4):3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[27]>", line 1, in <module>
+        C1 = Mat(({1,3}, {2,4}), {(1,2):2, (3,4):3})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 59, in __main__
+Failed example:
+    C2 = Mat(({1,3}, {2,4}), {(1,4):1, (1,2):4})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[28]>", line 1, in <module>
+        C2 = Mat(({1,3}, {2,4}), {(1,4):1, (1,2):4})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 60, in __main__
+Failed example:
+    D = Mat(({1,3}, {2,4}), {(1,2):6, (1,4):1, (3,4):3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[29]>", line 1, in <module>
+        D = Mat(({1,3}, {2,4}), {(1,2):6, (1,4):1, (3,4):3})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 61, in __main__
+Failed example:
+    C1 + C2 == D
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[30]>", line 1, in <module>
+        C1 + C2 == D
+    NameError: name 'C1' is not defined
+**********************************************************************
+File "test_mat.py", line 66, in __main__
+Failed example:
+    M = Mat(({1,3,5}, {2,4}), {(1,2):4, (5,4):2, (3,4):3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[31]>", line 1, in <module>
+        M = Mat(({1,3,5}, {2,4}), {(1,2):4, (5,4):2, (3,4):3})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 67, in __main__
+Failed example:
+    0*M == Mat(({1, 3, 5}, {2, 4}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[32]>", line 1, in <module>
+        0*M == Mat(({1, 3, 5}, {2, 4}), {})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 69, in __main__
+Failed example:
+    1*M == M
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[33]>", line 1, in <module>
+        1*M == M
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 71, in __main__
+Failed example:
+    0.25*M == Mat(({1,3,5}, {2,4}), {(1,2):1.0, (5,4):0.5, (3,4):0.75})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[34]>", line 1, in <module>
+        0.25*M == Mat(({1,3,5}, {2,4}), {(1,2):1.0, (5,4):0.5, (3,4):0.75})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 74, in __main__
+Failed example:
+    M = Mat(({1,2,3},{4,5,6}), {(1,4):one, (3,5):one, (2,5): 0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[35]>", line 1, in <module>
+        M = Mat(({1,2,3},{4,5,6}), {(1,4):one, (3,5):one, (2,5): 0})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 75, in __main__
+Failed example:
+    one * M == Mat(({1,2,3},{4,5,6}), {(1,4):one, (3,5):one, (2,5): 0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[36]>", line 1, in <module>
+        one * M == Mat(({1,2,3},{4,5,6}), {(1,4):one, (3,5):one, (2,5): 0})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 77, in __main__
+Failed example:
+    0 * M == Mat(({1,2,3},{4,5,6}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[37]>", line 1, in <module>
+        0 * M == Mat(({1,2,3},{4,5,6}), {})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 83, in __main__
+Failed example:
+    Mat(({'a','b'}, {0,1}), {('a',1):0}) == Mat(({'a','b'}, {0,1}), {('b',1):0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[38]>", line 1, in <module>
+        Mat(({'a','b'}, {0,1}), {('a',1):0}) == Mat(({'a','b'}, {0,1}), {('b',1):0})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 85, in __main__
+Failed example:
+    A = Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[39]>", line 1, in <module>
+        A = Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 86, in __main__
+Failed example:
+    B = Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1, ('b',1):0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[40]>", line 1, in <module>
+        B = Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1, ('b',1):0})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 87, in __main__
+Failed example:
+    C = Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1, ('b',1):5}) 
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[41]>", line 1, in <module>
+        C = Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1, ('b',1):5})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 88, in __main__
+Failed example:
+    A == B
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[42]>", line 1, in <module>
+        A == B
+    NameError: name 'A' is not defined
+**********************************************************************
+File "test_mat.py", line 90, in __main__
+Failed example:
+    A == C
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[43]>", line 1, in <module>
+        A == C
+    NameError: name 'A' is not defined
+**********************************************************************
+File "test_mat.py", line 92, in __main__
+Failed example:
+    A == Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[44]>", line 1, in <module>
+        A == Mat(({'a','b'}, {0,1}), {('a',1):2, ('b',0):1})
+    NameError: name 'A' is not defined
+**********************************************************************
+File "test_mat.py", line 97, in __main__
+Failed example:
+    M = Mat(({0,1}, {0,1}), {(0,1):3, (1,0):2, (1,1):4})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[45]>", line 1, in <module>
+        M = Mat(({0,1}, {0,1}), {(0,1):3, (1,0):2, (1,1):4})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 98, in __main__
+Failed example:
+    M.transpose() == Mat(({0,1}, {0,1}), {(0,1):2, (1,0):3, (1,1):4})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[46]>", line 1, in <module>
+        M.transpose() == Mat(({0,1}, {0,1}), {(0,1):2, (1,0):3, (1,1):4})
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 100, in __main__
+Failed example:
+    M = Mat(({'x','y','z'}, {2,4}), {('x',4):3, ('x',2):2, ('y',4):4, ('z',4):5})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[47]>", line 1, in <module>
+        M = Mat(({'x','y','z'}, {2,4}), {('x',4):3, ('x',2):2, ('y',4):4, ('z',4):5})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 101, in __main__
+Failed example:
+    Mt = Mat(({2,4}, {'x','y','z'}), {(4,'x'):3, (2,'x'):2, (4,'y'):4, (4,'z'):5})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[48]>", line 1, in <module>
+        Mt = Mat(({2,4}, {'x','y','z'}), {(4,'x'):3, (2,'x'):2, (4,'y'):4, (4,'z'):5})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 102, in __main__
+Failed example:
+    M.transpose() == Mt
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[49]>", line 1, in <module>
+        M.transpose() == Mt
+    NameError: name 'M' is not defined
+**********************************************************************
+File "test_mat.py", line 109, in __main__
+Failed example:
+    M1 = Mat(({1, 2, 3}, {1, 2, 3}), {(1, 2): 2, (2, 1):-1, (3, 1): 1, (3, 3): 7})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[51]>", line 1, in <module>
+        M1 = Mat(({1, 2, 3}, {1, 2, 3}), {(1, 2): 2, (2, 1):-1, (3, 1): 1, (3, 3): 7})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 110, in __main__
+Failed example:
+    v1*M1 == Vec({1, 2, 3},{1: -8, 2: 2, 3: 0})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[52]>", line 1, in <module>
+        v1*M1 == Vec({1, 2, 3},{1: -8, 2: 2, 3: 0})
+    NameError: name 'M1' is not defined
+**********************************************************************
+File "test_mat.py", line 114, in __main__
+Failed example:
+    M1 == Mat(({1, 2, 3}, {1, 2, 3}), {(1, 2): 2, (2, 1):-1, (3, 1): 1, (3, 3): 7})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[54]>", line 1, in <module>
+        M1 == Mat(({1, 2, 3}, {1, 2, 3}), {(1, 2): 2, (2, 1):-1, (3, 1): 1, (3, 3): 7})
+    NameError: name 'M1' is not defined
+**********************************************************************
+File "test_mat.py", line 117, in __main__
+Failed example:
+    M2 = Mat(({'a','b'}, {0, 2, 4, 6, 7}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[56]>", line 1, in <module>
+        M2 = Mat(({'a','b'}, {0, 2, 4, 6, 7}), {})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 118, in __main__
+Failed example:
+    v2*M2 == Vec({0, 2, 4, 6, 7},{})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[57]>", line 1, in <module>
+        v2*M2 == Vec({0, 2, 4, 6, 7},{})
+    NameError: name 'M2' is not defined
+**********************************************************************
+File "test_mat.py", line 123, in __main__
+Failed example:
+    N1 = Mat(({1, 3, 5, 7}, {'a', 'b'}), {(1, 'a'): -1, (1, 'b'): 2, (3, 'a'): 1, (3, 'b'):4, (7, 'a'): 3, (5, 'b'):-1})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[58]>", line 1, in <module>
+        N1 = Mat(({1, 3, 5, 7}, {'a', 'b'}), {(1, 'a'): -1, (1, 'b'): 2, (3, 'a'): 1, (3, 'b'):4, (7, 'a'): 3, (5, 'b'):-1})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 125, in __main__
+Failed example:
+    N1*u1 == Vec({1, 3, 5, 7},{1: 3, 3: 9, 5: -2, 7: 3})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[60]>", line 1, in <module>
+        N1*u1 == Vec({1, 3, 5, 7},{1: 3, 3: 9, 5: -2, 7: 3})
+    NameError: name 'N1' is not defined
+**********************************************************************
+File "test_mat.py", line 127, in __main__
+Failed example:
+    N1 == Mat(({1, 3, 5, 7}, {'a', 'b'}), {(1, 'a'): -1, (1, 'b'): 2, (3, 'a'): 1, (3, 'b'):4, (7, 'a'): 3, (5, 'b'):-1})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[61]>", line 1, in <module>
+        N1 == Mat(({1, 3, 5, 7}, {'a', 'b'}), {(1, 'a'): -1, (1, 'b'): 2, (3, 'a'): 1, (3, 'b'):4, (7, 'a'): 3, (5, 'b'):-1})
+    NameError: name 'N1' is not defined
+**********************************************************************
+File "test_mat.py", line 131, in __main__
+Failed example:
+    N2 = Mat(({('a', 'b'), ('c', 'd')}, {1, 2, 3, 5, 8}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[63]>", line 1, in <module>
+        N2 = Mat(({('a', 'b'), ('c', 'd')}, {1, 2, 3, 5, 8}), {})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 133, in __main__
+Failed example:
+    N2*u2 == Vec({('a', 'b'), ('c', 'd')},{})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[65]>", line 1, in <module>
+        N2*u2 == Vec({('a', 'b'), ('c', 'd')},{})
+    NameError: name 'N2' is not defined
+**********************************************************************
+File "test_mat.py", line 139, in __main__
+Failed example:
+    A = Mat(({0,1,2}, {0,1,2}), {(1,1):4, (0,0):0, (1,2):1, (1,0):5, (0,1):3, (0,2):2})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[66]>", line 1, in <module>
+        A = Mat(({0,1,2}, {0,1,2}), {(1,1):4, (0,0):0, (1,2):1, (1,0):5, (0,1):3, (0,2):2})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 140, in __main__
+Failed example:
+    B = Mat(({0,1,2}, {0,1,2}), {(1,0):5, (2,1):3, (1,1):2, (2,0):0, (0,0):1, (0,1):4})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[67]>", line 1, in <module>
+        B = Mat(({0,1,2}, {0,1,2}), {(1,0):5, (2,1):3, (1,1):2, (2,0):0, (0,0):1, (0,1):4})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 141, in __main__
+Failed example:
+    A*B == Mat(({0,1,2}, {0,1,2}), {(0,0):15, (0,1):12, (1,0):25, (1,1):31})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[68]>", line 1, in <module>
+        A*B == Mat(({0,1,2}, {0,1,2}), {(0,0):15, (0,1):12, (1,0):25, (1,1):31})
+    NameError: name 'A' is not defined
+**********************************************************************
+File "test_mat.py", line 143, in __main__
+Failed example:
+    C = Mat(({0,1,2}, {'a','b'}), {(0,'a'):4, (0,'b'):-3, (1,'a'):1, (2,'a'):1, (2,'b'):-2}) 
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[69]>", line 1, in <module>
+        C = Mat(({0,1,2}, {'a','b'}), {(0,'a'):4, (0,'b'):-3, (1,'a'):1, (2,'a'):1, (2,'b'):-2})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 144, in __main__
+Failed example:
+    D = Mat(({'a','b'}, {'x','y'}), {('a','x'):3, ('a','y'):-2, ('b','x'):4, ('b','y'):-1})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[70]>", line 1, in <module>
+        D = Mat(({'a','b'}, {'x','y'}), {('a','x'):3, ('a','y'):-2, ('b','x'):4, ('b','y'):-1})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 145, in __main__
+Failed example:
+    C*D == Mat(({0,1,2}, {'x','y'}), {(0,'y'):-5, (1,'x'):3, (1,'y'):-2, (2,'x'):-5})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[71]>", line 1, in <module>
+        C*D == Mat(({0,1,2}, {'x','y'}), {(0,'y'):-5, (1,'x'):3, (1,'y'):-2, (2,'x'):-5})
+    NameError: name 'C' is not defined
+**********************************************************************
+File "test_mat.py", line 147, in __main__
+Failed example:
+    M = Mat(({0, 1}, {'a', 'c', 'b'}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[72]>", line 1, in <module>
+        M = Mat(({0, 1}, {'a', 'c', 'b'}), {})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 148, in __main__
+Failed example:
+    N = Mat(({'a', 'c', 'b'}, {(1, 1), (2, 2)}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[73]>", line 1, in <module>
+        N = Mat(({'a', 'c', 'b'}, {(1, 1), (2, 2)}), {})
+    NameError: name 'Mat' is not defined
+**********************************************************************
+File "test_mat.py", line 149, in __main__
+Failed example:
+    M*N == Mat(({0,1}, {(1,1), (2,2)}), {})
+Exception raised:
+    Traceback (most recent call last):
+      File "c:\Python33\lib\doctest.py", line 1287, in __run
+        compileflags, 1), test.globs)
+      File "<doctest __main__[74]>", line 1, in <module>
+        M*N == Mat(({0,1}, {(1,1), (2,2)}), {})
+    NameError: name 'M' is not defined
+**********************************************************************
+1 items had failures:
+  67 of  75 in __main__
+***Test Failed*** 67 failures.
